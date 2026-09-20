@@ -1,0 +1,162 @@
+```css
+/* Thiết lập chung cho toàn bộ trang */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+/* Khung chính */
+#main {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+/* Phần đầu trang */
+#head {
+    height: 120px;
+    background-color: #d9edf7;
+    border: 1px solid #5bc0de;
+    margin-bottom: 5px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#head h1 {
+    margin: 10px 0;
+    color: #333333;
+}
+
+#head p {
+    color: #555555;
+}
+
+/* Menu đầu trang */
+#head-link {
+    height: 45px;
+    background-color: #333333;
+    margin-bottom: 5px;
+    text-align: center;
+    line-height: 45px;
+}
+
+#head-link a {
+    color: white;
+    text-decoration: none;
+    margin: 0 25px;
+}
+
+#head-link a:hover {
+    color: #5bc0de;
+}
+
+/* Phần bên trái */
+#left {
+    width: 200px;
+    min-height: 400px;
+    float: left;
+    background-color: #f5f5f5;
+    border: 1px solid #dddddd;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+#left h3 {
+    margin-top: 0;
+    color: #333333;
+}
+
+#left ul {
+    padding-left: 20px;
+}
+
+#left li {
+    margin-bottom: 15px;
+}
+
+#left a {
+    color: #333333;
+    text-decoration: none;
+}
+
+#left a:hover {
+    color: #337ab7;
+}
+
+/* Phần nội dung chính */
+#content {
+    width: 560px;
+    min-height: 400px;
+    float: left;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-left: 5px;
+}
+
+#content h2 {
+    margin-top: 0;
+    color: #d9534f;
+}
+
+.news {
+    border-bottom: 1px solid #dddddd;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+.news h3 {
+    color: #337ab7;
+}
+
+.news p {
+    color: #555555;
+    line-height: 1.6;
+}
+
+/* Phần bên phải */
+#right {
+    width: 220px;
+    min-height: 400px;
+    float: right;
+    background-color: #f5f5f5;
+    border: 1px solid #dddddd;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+#right h3 {
+    margin-top: 0;
+    color: #333333;
+}
+
+.right-box {
+    background-color: white;
+    border: 1px solid #dddddd;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.right-box h4 {
+    margin-top: 0;
+    color: #337ab7;
+}
+
+/* Chân trang */
+#footer {
+    clear: both;
+    height: 80px;
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    box-sizing: border-box;
+    margin-top: 5px;
+}
+
+#footer p {
+    margin: 5px;
+}
+```
