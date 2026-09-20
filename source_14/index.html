@@ -1,0 +1,141 @@
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>CSS List</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            padding: 20px;
+        }
+
+        h1 {
+            color: blue;
+            text-align: center;
+        }
+
+        h2 {
+            color: #333333;
+        }
+
+        /* Danh sách không có thứ tự */
+        .circle {
+            list-style-type: circle;
+        }
+
+        .square {
+            list-style-type: square;
+        }
+
+        /* Danh sách có thứ tự */
+        .upper-alpha {
+            list-style-type: upper-alpha;
+        }
+
+        .lower-roman {
+            list-style-type: lower-roman;
+        }
+
+        /* Vị trí đánh dấu */
+        .inside {
+            list-style-position: inside;
+            background-color: #e8f4ff;
+        }
+
+        .outside {
+            list-style-position: outside;
+            background-color: #fff2e8;
+        }
+
+        /* Danh sách với thuộc tính rút gọn */
+        .shortcut {
+            list-style: square inside;
+        }
+
+        /* Danh sách có màu */
+        .color-list {
+            color: blue;
+            font-size: 18px;
+        }
+
+        .color-list li {
+            color: green;
+            margin: 8px;
+        }
+
+        .color-list li:nth-child(2) {
+            color: red;
+        }
+
+        .color-list li:nth-child(3) {
+            color: purple;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Các kiểu danh sách trong CSS</h1>
+
+    <h2>1. Danh sách không có thứ tự</h2>
+
+    <ul class="circle">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ul>
+
+    <ul class="square">
+        <li>Thiết kế web</li>
+        <li>Lập trình web</li>
+        <li>Cơ sở dữ liệu</li>
+    </ul>
+
+    <h2>2. Danh sách có thứ tự</h2>
+
+    <ol class="upper-alpha">
+        <li>Bước đầu tiên</li>
+        <li>Bước thứ hai</li>
+        <li>Bước thứ ba</li>
+    </ol>
+
+    <ol class="lower-roman">
+        <li>Chuẩn bị</li>
+        <li>Thực hiện</li>
+        <li>Kiểm tra</li>
+    </ol>
+
+    <h2>3. Vị trí đánh dấu danh sách</h2>
+
+    <ul class="inside">
+        <li>Đánh dấu nằm bên trong dòng nội dung.</li>
+        <li>Đây là ví dụ list-style-position: inside.</li>
+    </ul>
+
+    <ul class="outside">
+        <li>Đánh dấu nằm bên ngoài dòng nội dung.</li>
+        <li>Đây là ví dụ list-style-position: outside.</li>
+    </ul>
+
+    <h2>4. Thuộc tính list-style rút gọn</h2>
+
+    <ul class="shortcut">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ul>
+
+    <h2>5. Danh sách với màu sắc</h2>
+
+    <ul class="color-list">
+        <li>Mục thứ nhất</li>
+        <li>Mục thứ hai</li>
+        <li>Mục thứ ba</li>
+    </ul>
+
+</body>
+</html>
+```
