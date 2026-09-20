@@ -1,0 +1,52 @@
+```css id="z7q2md"
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Gallery mặc định: 4 ảnh trên một dòng */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.gallery-item {
+    overflow: hidden;
+    background-color: white;
+}
+
+.gallery-item img {
+    display: block;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Màn hình nhỏ hơn 700px: 2 ảnh trên một dòng */
+@media (max-width: 699px) {
+    .gallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Màn hình nhỏ hơn 500px: 1 ảnh trên một dòng */
+@media (max-width: 499px) {
+    .gallery {
+        grid-template-columns: 1fr;
+    }
+}
+```
