@@ -1,0 +1,52 @@
+```css
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    display: block;
+}
+
+nav {
+    display: block;
+    margin: 20px 0;
+}
+
+nav a {
+    display: inline-block;
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+}
+
+nav a:hover {
+    color: #0066cc;
+}
+
+section {
+    display: block;
+    max-width: 1000px;
+    width: 100%;
+    margin: 20px auto;
+}
+
+.box {
+    display: inline-block;
+    width: 30%;
+    max-width: 300px;
+    padding: 20px;
+    background-color: lightblue;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+footer {
+    display: block;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #f2f2f2;
+}
+```
